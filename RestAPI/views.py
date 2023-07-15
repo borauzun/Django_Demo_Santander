@@ -11,7 +11,7 @@ from rest_framework.parsers import JSONParser
 # Create your views here.
 @csrf_exempt
 def helloWorld(request):
-    return JsonResponse({"msg":"Hello World"}, safe=False)
+    return JsonResponse({"msg":"Hello World2"}, safe=False)
 
 @csrf_exempt
 @api_view(["GET","POST","PUT"])
